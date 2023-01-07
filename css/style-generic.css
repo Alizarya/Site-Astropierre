@@ -176,23 +176,74 @@ main{
 }
 
 .planetarium{
+    display: flex;
+    flex-direction: column;
+}
+
+.planetarium p{
+    margin-top: 2rem;
+}
+
+.planetarium_image{
+    margin-top: 2rem;
+    border-radius: 2rem;
+    height: max-content;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+.twitter{
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
 
-.planetarium_image{
-    width: 40%;
-    height: max-content;
-    border-radius: 2rem;
-    box-shadow: 2px 2px 8px 2px  #002d56;
-}
-
-.planetarium_text{
-    width: 55%;
+.twitter_text{
+    width: 87%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.twitter i{
+    font-size: 7rem;
+    color: #002d56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conclusion{
+    margin-top: 2rem;
+    border: #002d56 0.1rem solid;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conclusion :first-child{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+
+.conclusion :last-child{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.france3{
+    margin-top: 2rem;
+}
+
+.france3_image{
+    max-width: 100%;
+    border-radius: 2rem;
+    height: max-content;
+    box-shadow: 2px 2px 8px 2px  #002d56;
 }
 
 
