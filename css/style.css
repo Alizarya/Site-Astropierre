@@ -11,15 +11,15 @@ body{
 h1{
     margin-block: 0;
     color: #002d56;
-    font-size:3.5rem;
+    font-size:2.5rem;
 }
 
 h2{
     font-family: 'Times New Roman', Times, serif;
     margin-block: 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 300;
-    margin: 1% 0;
+    margin: 0.8% 0;
 }
 
 h3{
@@ -35,6 +35,7 @@ i{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 p{
@@ -45,7 +46,6 @@ p{
 
 /*HEADER*/
 header{
-    max-width: 95%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -53,14 +53,15 @@ header{
 }
 
 .header_entete{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .logo_astropierre{
-    width: 70%;
-    margin: 2%;
+    width: 30%;
+    margin: 2% 0 1% 0;
 }
 
 nav{
@@ -70,7 +71,7 @@ nav{
     border-top: #002d56 0.1rem solid;
     border-bottom: #002d56 0.1rem solid;
     padding: 1rem 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
 }
 
@@ -98,7 +99,6 @@ nav{
     background-position: right center;
     cursor: pointer;
 }
-
 /*MAIN*/
 main{
     max-width: 95%;

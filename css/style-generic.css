@@ -11,75 +11,92 @@ body{
 h1{
     margin-block: 0;
     color: #002d56;
-    font-size:2rem;
+    font-size:2.5rem;
 }
 
 h2{
     font-family: 'Times New Roman', Times, serif;
     margin-block: 0;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-weight: 300;
-    margin: 1% 0;
+    margin: 0.8% 0;
 }
 
 h3{
     margin-block: 0;
     color:white;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: bolder;
 }
 
 i{
-   font-size: 0.7rem;
+   font-size: 1rem;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
+
 
 p{
     margin-block: 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    text-align: justify;
+}
+
+.legende p{
+    color: #686a6b;
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.legende p:first-child{
+    margin-top: 0.6rem;
 }
 
 /*HEADER*/
 header{
-    max-width: 75%;
-    margin: 1rem auto;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header_entete{
+    width: 100%;
     display: flex;
-    max-width: 40%;
     flex-direction: column;
     align-items: center;
 }
 
 .logo_astropierre{
-    width: 70%;
-    margin: 2% 0;
+    width: 30%;
+    margin: 2% 0 1% 0;
 }
 
 nav{
     display: flex;
-    width: 55%;
-    justify-content: space-between;
-    align-items: center;
+    width: 75%;
+    justify-content: space-around;
+    border-top: #002d56 0.1rem solid;
+    border-bottom: #002d56 0.1rem solid;
+    padding: 1rem 0;
+    margin-top: 1rem;
+
 }
 
-
 .btn_nav i{
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     color: white;
 }
 
 .btn_nav{
     width: 25%;
-    padding: 0.7rem;
+    margin: 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -98,11 +115,84 @@ nav{
 
 /*MAIN*/
 main{
-    max-width: 95%;
-    margin: auto;
+    max-width: 75%;
+    margin: 2rem auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.enfance{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enfance_image{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.granier{
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+.enfance_text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2.6rem;
+}
+
+.etudes1{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.etudes2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.etudes2_text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.etudes2_image{
+    width: 40%;
+    border-radius: 2rem;
+    height: max-content;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+.planetarium{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.planetarium_image{
+    width: 40%;
+    height: max-content;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+.planetarium_text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
