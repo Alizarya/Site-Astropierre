@@ -19,7 +19,7 @@
 <!-- Insérer les kit fontawasome pour les icones -->        
     <script src="https://kit.fontawesome.com/aa10eb2a87.js" crossorigin="anonymous"></script>
 
-<!-- Appeler une feuille CSS -->
+<!-- Appeler les feuilles CSS -->
     <link rel="stylesheet" href="css/style.css">
 
 <!-- OpenGraph Facebook et LinkedIn -->
@@ -42,14 +42,14 @@
 
 <!--HEADER-->
     <header>
-        <a href="index.html" class="header_entete">
+        <a  id="header" class="header_entete">
             <img class="logo_astropierre" src="images/logo astropierre.png" alt="Logo Astropierre">
             <h1>Pierre Henriquet</h1>
             <h2>Médiateur scientifique, conférencier et chargé de projets</h2>
         </a>
 
         <nav>
-            <a href="qui_suis_je.html" class="btn_nav">
+            <a id="btnQuiSuisJe" class="btn_nav">
                 <i class="fa-solid fa-user-astronaut"></i>
                 <h3>Qui suis-je ?</h3>
             </a>
@@ -66,40 +66,101 @@
 
 <!--MAIN-->
     <main>
-        <section class="bienvenue">
-            <img class="bienvenue_photo" src="images/index/PierreHENRIQUET (7).jpg" alt="photo de Pierre Henriquet">
-            <div class="bienvenue_text">
-                <p>Bonjour et bienvenue.</p>
-                <p>Vous trouverez ici toutes les informations sur les services que je propose, ainsi que mon parcours.</p>
+        <div id="pageAccueil">
+
+            <section class="bienvenue">
+                <img class="bienvenue_photo" src="images/index/PierreHENRIQUET (7).jpg" alt="photo de Pierre Henriquet">
+                <div class="bienvenue_text">
+                    <p>Bonjour et bienvenue.</p>
+                    <p>Vous trouverez ici toutes les informations sur les services que je propose, ainsi que mon parcours.</p>
+                </div>
+            </section>
+
+            <section class="présentation">
+                <p>Que vous cherchiez un conférencier afin de vous faire voyager parmi les plus belles merveilles de l’Univers, que vous soyez une institution scientifique pour animer un workshop ou une table ronde, une rédaction journalistique ayant besoin d’articles scientifiques ou bien encore un média (radio, télévision, podcast,…) en quête d’interventions au micro, vous êtes au bon endroit.</p>
+            </section>
+
+            <div class="interligne">
             </div>
-        </section>
 
+            <section class="confiance">
+                <h1>Ils m'ont fait confiance</h1>
+                <div class="confiance_logo">
+                    <img class="logo_box" src="images/index/logo confiance/2560px-Logo_Université_Paris-Saclay.svg.png" alt="Université Paris Saclay">
+                    <img class="logo_box" src="images/index/logo confiance/1200px-Centre_national_de_la_recherche_scientifique.svg.png" alt="CNRS Centre National de la Recherche Scientifique">
+                    <img class="logo_box" src="images/index/logo confiance/LAPP_LogoTexte.png" alt="LAPP Laboratoire d'annecy">
+                    <img class="logo_box" src="images/index/logo confiance/Logo_CNES_2017_triangulaire_bleu.png" alt="CNES Centre National d'Etudes spatiales">
+                    <img class="logo_box" src="images/index/logo confiance/1200px-France_Culture_-_2008.svg.png" alt="France Culture">
+                    <img class="logo_box" src="images/index/logo confiance/1200px-France3_ara.png" alt="France 3 Auvergne Rhone Alpes">
+                    <img class="logo_box" src="images/index/logo confiance/Logo-numerama.svg.png" alt="Numerama">
+                    <img class="logo_box" src="images/index/logo confiance/RCF_Radio_logo_2015.png" alt="RCF radio">
+                    <img class="logo_box" src="images/index/logo confiance/logo-afa-large_xlarge.jpg" alt="AFA Association Française d'Astronomie">
+                    <img class="logo_box" src="images/index/logo confiance/88ee33dbbe4bd66053193cf58c4102026e080156935a5061ee8020d5ef6cd297.png" alt="Epsiloon">
+                    <img class="logo_box" src="images/index/logo confiance/téléchargement.png" alt="CHU Grenoble">
+                    <img class="logo_box" src="images/index/logo confiance/Polytechnique Insights(3).png" alt="Polytechnique insights">
+                    <img class="logo_box" src="images/index/logo confiance/Lyon-1-Claude-Bernard.png" alt="Université Lyon 1 Claude Bernard">
+                </div>
+            </section>
+        </div> <!-- Fin de la partie "Accueil"-->
 
-        <section class="présentation">
-            <p>Que vous cherchiez un conférencier afin de vous faire voyager parmi les plus belles merveilles de l’Univers, que vous soyez une institution scientifique pour animer un workshop ou une table ronde, une rédaction journalistique ayant besoin d’articles scientifiques ou bien encore un média (radio, télévision, podcast,…) en quête d’interventions au micro, vous êtes au bon endroit.</p>
-        </section>
+        <div id="pageQuiSuisJe">
+            <h1> Qui suis-je ?</h1>
 
-        <div class="interligne">
-        </div>
+            <article class="enfance">
 
-        <section class="confiance">
-            <h1>Ils m'ont fait confiance</h1>
-            <div class="confiance_logo">
-                <img class="logo_box" src="images/index/logo confiance/2560px-Logo_Université_Paris-Saclay.svg.png" alt="Université Paris Saclay">
-                <img class="logo_box" src="images/index/logo confiance/1200px-Centre_national_de_la_recherche_scientifique.svg.png" alt="CNRS Centre National de la Recherche Scientifique">
-                <img class="logo_box" src="images/index/logo confiance/LAPP_LogoTexte.png" alt="LAPP Laboratoire d'annecy">
-                <img class="logo_box" src="images/index/logo confiance/Logo_CNES_2017_triangulaire_bleu.png" alt="CNES Centre National d'Etudes spatiales">
-                <img class="logo_box" src="images/index/logo confiance/1200px-France_Culture_-_2008.svg.png" alt="France Culture">
-                <img class="logo_box" src="images/index/logo confiance/1200px-France3_ara.png" alt="France 3 Auvergne Rhone Alpes">
-                <img class="logo_box" src="images/index/logo confiance/Logo-numerama.svg.png" alt="Numerama">
-                <img class="logo_box" src="images/index/logo confiance/RCF_Radio_logo_2015.png" alt="RCF radio">
-                <img class="logo_box" src="images/index/logo confiance/logo-afa-large_xlarge.jpg" alt="AFA Association Française d'Astronomie">
-                <img class="logo_box" src="images/index/logo confiance/88ee33dbbe4bd66053193cf58c4102026e080156935a5061ee8020d5ef6cd297.png" alt="Epsiloon">
-                <img class="logo_box" src="images/index/logo confiance/téléchargement.png" alt="CHU Grenoble">
-                <img class="logo_box" src="images/index/logo confiance/Polytechnique Insights(3).png" alt="Polytechnique insights">
-                <img class="logo_box" src="images/index/logo confiance/Lyon-1-Claude-Bernard.png" alt="Université Lyon 1 Claude Bernard">
-            </div>
-        </section>
+                <div class="enfance_image">
+                    <img class="granier" src="images/qui_suis_je/granier.jpg" alt="voie lactée sur le Mont Granier en Savoie">
+                    <div class="legende">
+                        <p>Voie lactée sur le Mont Granier (Savoie)</p>
+                        <p>Crédit : Alex Meneghin – Club d’astronomie CRABE</p>
+                    </div>
+                </div>     
+                <div class="enfance_text">
+                    <p>Ayant passé mon enfance dans les hautes vallées savoyardes, j’ai eu la chance, très tôt, d’admirer certaines des plus belles nuits étoilées que l’on puisse voir en France métropolitaine.</p> 
+                    <p>Et c’est certainement de cet émerveillement que me vient cette envie de partager mon enthousiasme pour le monde qui nous entoure, de l’infiniment grand à l’infiniment petit.</p>
+                    <p>Cette envie ne m’a jamais quitté depuis.</p>
+                </div>
+            </article>
+
+            <article class="etudes1">
+                <p>Après un parcours scolaire orienté vers les matières scientifiques, trois années passées en Classes Préparatoires aux Grandes Ecoles d’ingénieur (CPGE), j’ai trouvé ma voie dans le cursus universitaire jusqu’à l’obtention d’un doctorat en Physique Nucléaire appliquée à la Médecine (vous pouvez retrouver <a href="https://theses.hal.science/tel-00712778" target="_blank"> ma thèse ici)</a>.</p>
+            </article>
+
+            <article class="etudes2">
+                <div class="etudes2_text">
+                    <p>Au début des années 2000, j’ai travaillé quatre ans au Centre d’Astronomie de Haute-Provence, dans la ville de Saint-Michel L’observatoire. J’y ai découvert le métier de médiateur scientifique, le plaisir de vulgariser l’astronomie et de transmettre ma passion au(x) public(s).</p>
+                    <p>En parallèle de cette expérience professionnelle, j’ai validé un diplôme universitaire d’astronomie/astrophysique.</p>
+                </div>
+                <img class="etudes2_image" src="images/qui_suis_je/Pierre.jpg" alt="Pierre Henriquet">
+            </article>
+
+            <article class="planetarium">
+                <p>Après la soutenance de ma thèse en 2011, j’ai intégré le Planétarium de Vaulx-en-Velin en périphérie de Lyon, en tant que médiateur scientifique et chargé de projet. </p>
+                <p>J’ai pu y perfectionner mes techniques de vulgarisation et de médiation, mais aussi y découvrir d’autres activités, telles que l’organisation d’évènements, le développement de partenariats institutionnels, et des apparitions régulières dans les médias.</p>
+                <img class="planetarium_image" src="images/qui_suis_je/Pierre plané.jpg" alt="Pierre Henriquet au micro du planétarium de Vaulx en Velin">
+            </article>
+
+            <article class="twitter">
+                <i class="fa-brands fa-square-twitter"></i>
+                <div class="twitter_text">
+                    <p>Depuis 2015, j’ai aussi l’immense plaisir de parler de(s) science(s) sur mon compte Twitter @astropierre.</p>
+                    <p>J’y apporte quotidiennement des nouvelles du monde de la recherche et je me fais l’écho des toutes dernières découvertes en astronomie, mais aussi dans d’autres domaines (aérospatial, médecine, biologie, physique des particules, physique nucléaire…). C’est pour moi une nouvelle manière d’interagir avec un plus large public.</p>
+                </div>
+            </article>
+
+            <article class="conclusion">    
+                <p>C’est fort de ce parcours et de toutes ces expériences que je vous propose désormais mes services.</p>
+                <p>Que vous souhaitiez en savoir plus sur les mystères de l’Univers ou que vous ayez un projet de culture scientifique à mettre en place, n’hésitez pas à me contacter pour que nous en discutions ensemble.</p>
+            </article>
+
+            <article class="france3">
+                <img class="france3_image" src="images/qui_suis_je/Pierre france 3.jpg" alt="Pierre Henriquet sur le plateau de France 3 Auvergne Rhone Alpes dans l'émission Vous êtes formidables présentée par Alain Fauritte">
+                <div class="legende">
+                    <p>Pour en savoir plus sur moi ainsi que mon parcours, n’hésitez pas à regarder le replay de l’émission « Vous êtes formidables » de France 3 où j’ai eu l’immense plaisir d’être invité.</p>
+                </div>
+            </article>
+
+        </div> <!-- Fin de la partie "Qui suis je ?"-->
     </main>
 
 <!--FOOTER-->
@@ -118,6 +179,7 @@
     </footer>
 
 <!-- Insertion des scripts JS -->  
-  
+    <script src="./scripts/script.js"></script>
+
 </body>
 </html>

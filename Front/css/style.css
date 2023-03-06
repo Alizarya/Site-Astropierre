@@ -62,6 +62,7 @@ header{
 .logo_astropierre{
     width: 30%;
     margin: 2% 0 1% 0;
+    cursor: pointer;
 }
 
 nav{
@@ -99,8 +100,8 @@ nav{
     background-position: right center;
     cursor: pointer;
 }
-/*MAIN*/
-main{
+/*PAGE D'ACCUEIL*/
+#pageAccueil{
     max-width: 95%;
     margin: auto;
     display: flex;
@@ -178,6 +179,141 @@ main{
     margin: 1rem;
 }
 
+/*PAGE QUI SUIS JE ?*/
+#pageQuiSuisJe{
+    max-width: 75%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.enfance{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enfance_image{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.granier{
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+.enfance_text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2.6rem;
+}
+
+.etudes1{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.etudes2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.etudes2_text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.etudes2_image{
+    width: 40%;
+    border-radius: 2rem;
+    height: max-content;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+.planetarium{
+    display: flex;
+    flex-direction: column;
+}
+
+.planetarium p{
+    margin-top: 2rem;
+}
+
+.planetarium_image{
+    margin-top: 2rem;
+    border-radius: 2rem;
+    height: max-content;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+.twitter{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twitter_text{
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.twitter i{
+    font-size: 7rem;
+    color: #002d56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conclusion{
+    margin-top: 2rem;
+    border: #002d56 0.1rem solid;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conclusion :first-child{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+
+.conclusion :last-child{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.france3{
+    margin-top: 2rem;
+}
+
+.france3_image{
+    max-width: 100%;
+    border-radius: 2rem;
+    height: max-content;
+    box-shadow: 2px 2px 8px 2px  #002d56;
+}
+
+
 /*FOOTER*/
 
 .footer_general{
@@ -234,3 +370,14 @@ footer i:hover{
     font-size:medium;
 }
 
+
+
+/*CLASS POUR LES SCRIPTS*/
+
+.visible {
+    display: flex;
+}
+
+.invisible {
+    display: none;
+}
