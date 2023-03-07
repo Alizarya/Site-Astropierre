@@ -9,6 +9,9 @@
 
 <!-- Insérer le titre de la page -->    
     <title>Astropierre - Médiateur scientifique</title>
+
+<!-- Insérer ici l'icone de favori -->
+    <link rel="shortcut icon" href="./images/miniLogo.ico">
         
 <!-- Mettre la description du contenu de la page dans l'attribut content -->        
     <meta name="description" content="Astropierre, Pierre Henriquet, médiateur scientifique, conférencier et chargé de projets">
@@ -36,31 +39,33 @@
     <meta name="twitter:description" content="Retrouvez toutes les informations de Pierre Henriquet, médiateur scientifique, conférencier et chargé de projets.">
     <meta name="twitter:image" content="">
 
+<!-- Inserer le lien canonical -->
+    <link rel= "canonical" href= "astropierre.com">
 </head>
 
 <body>
 
 <!--HEADER-->
     <header>
-        <a  id="header" class="header_entete">
+        <span  id="header" class="header_entete">
             <img class="logo_astropierre" src="images/logo astropierre.png" alt="Logo Astropierre">
             <h1>Pierre Henriquet</h1>
             <h2>Médiateur scientifique, conférencier et chargé de projets</h2>
-        </a>
+        </span>
 
         <nav>
-            <a id="btnQuiSuisJe" class="btn_nav">
+            <span id="btnQuiSuisJe" class="btn_nav">
                 <i class="fa-solid fa-user-astronaut"></i>
                 <h3>Qui suis-je ?</h3>
-            </a>
-            <a href="mes_prestations.html" class="btn_nav">
+            </span>
+            <span id="btnMesPrestations" class="btn_nav">
                 <i class="fa-solid fa-meteor"></i>
                 <h3>Mes prestations</h3>
-            </a>
-            <a href="me_contacter.html" class="btn_nav">
+            </span>
+            <span id="btnMeContacter" class="btn_nav">
                 <i class="fa-solid fa-satellite-dish"></i>
                 <h3>Me contacter</h3>
-            </a>
+            </span>
         </nav>
     </header>
 
@@ -69,7 +74,7 @@
         <div id="pageAccueil">
 
             <section class="bienvenue">
-                <img class="bienvenue_photo" src="images/index/PierreHENRIQUET (7).jpg" alt="photo de Pierre Henriquet">
+                <img class="bienvenue_photo" src="images/index/PierreHENRIQUET.jpg" alt="photo de Pierre Henriquet">
                 <div class="bienvenue_text">
                     <p>Bonjour et bienvenue.</p>
                     <p>Vous trouverez ici toutes les informations sur les services que je propose, ainsi que mon parcours.</p>
@@ -84,7 +89,7 @@
             </div>
 
             <section class="confiance">
-                <h1>Ils m'ont fait confiance</h1>
+                <h3>Ils m'ont fait confiance</h3>
                 <div class="confiance_logo">
                     <img class="logo_box" src="images/index/logo confiance/2560px-Logo_Université_Paris-Saclay.svg.png" alt="Université Paris Saclay">
                     <img class="logo_box" src="images/index/logo confiance/1200px-Centre_national_de_la_recherche_scientifique.svg.png" alt="CNRS Centre National de la Recherche Scientifique">
@@ -161,6 +166,59 @@
             </article>
 
         </div> <!-- Fin de la partie "Qui suis je ?"-->
+
+        <div id="pageMesPrestations">
+            <h1>Mes prestations</h1>
+
+            <div class="box">
+                <div class="card">
+                    <h4>CONFÉRENCES</h4>
+                    <div class="imgBx">
+                        <img src="./images/mes_prestations/conférences.jpg" alt="images">
+                    </div>
+                    <div class="details">
+                        <p>Mon catalogue de <br>conférences existantes.</p>
+                    </div>
+                </div>
+              
+                <div class="card">
+                    <h4>MÉDIAS</h4>
+                    <div class="imgBx">
+                        <img src="./images/mes_prestations/medias.jpg" alt="images">
+                    </div>
+                    <div class="details">
+                        <p>Télévision, radio, internet... <br>Voici quelques interventions.</p>
+                    </div>  
+                </div>
+
+                <div class="card">
+                    <h4>GESTION DE PROJETS</h4>
+                    <div class="imgBx">
+                        <img src="./images/mes_prestations/gestion de projets et d'evenements.jpg" alt="images">
+                    </div>
+                    <div class="details">
+                        <p>Mes services dans l'organistation et l'animation d'évenements.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h4>RÉDACTIONS SCIENTIFIQUES</h4>
+                    <div class="imgBx">
+                        <img src="./images/mes_prestations/redactions scientifiques.jpg" alt="images">
+                    </div>
+                    <div class="details">
+                        <p>Mes rédactions et mes articles, en ligne et sur papier.</p>
+                    </div>
+                </div>
+
+            </div>
+            <p class="phraseFinalePresta">Pour tout autre projet que vous souhaitez me soumettre, vous pouvez me contacter ici.</p>
+        </div> <!-- Fin de la partie "Mes prestations" -->
+
+        <div id="pageMeContacter">
+            <h1>Me contacter</h1>
+        </div> <!-- Fin de la partie "Me contacter" -->
+
     </main>
 
 <!--FOOTER-->
@@ -168,8 +226,8 @@
         <section class="footer_general">
             <p class="RS">Me retrouver sur les réseaux sociaux</p>
             <div class="reseaux_sociaux">
-                <a href="http://www.twitter.com/astropierre" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/pierre-henriquet-41852025a/"target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+                <a href="http://www.twitter.com/astropierre" target="_blank" alt="logo twitter"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/pierre-henriquet-41852025a/"target="_blank" alt="logo linkedIn"><i class="fa-brands fa-linkedin"></i></a> 
             </div>
         </section>
 
@@ -179,7 +237,7 @@
     </footer>
 
 <!-- Insertion des scripts JS -->  
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/scriptPageDynamique.js"></script>
 
 </body>
 </html>
