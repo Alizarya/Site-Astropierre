@@ -9,6 +9,7 @@ const btnHeader = document.getElementById("header");
 const btnQuiSuisJe = document.getElementById("btnQuiSuisJe");
 const btnMesPrestations = document.getElementById("btnMesPrestations");
 const btnMeContacter = document.getElementById("btnMeContacter");
+const btnMeContacterIci = document.getElementById("btnMeContacterIci");
 
 // DÉCLARATION DES FONCTIONS DISPLAY
 function afficherPageAccueil() {
@@ -44,3 +45,4 @@ btnHeader.addEventListener("click", afficherPageAccueil);
 btnQuiSuisJe.addEventListener("click", afficherPageQuiSuisJe);
 btnMesPrestations.addEventListener("click", afficherPageMesPrestation);
 btnMeContacter.addEventListener("click", afficherPageMeContacter);
+btnMeContacterIci.addEventListener("click", afficherPageMeContacter);

@@ -412,9 +412,13 @@ nav{
   margin-bottom: 20px;
    } 
 
-   .phraseFinalePresta{
+.phraseFinalePresta{
     margin-top: 1em;
    }
+
+#btnMeContacterIci{
+    cursor: pointer;
+}
 
 /*PAGE ME CONTACTER*/
 #pageMeContacter{
@@ -497,7 +501,7 @@ font-size: 1.2rem;
 }
 
 .reseaux_sociaux{
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -519,6 +523,7 @@ footer i{
     background-image: linear-gradient(to right, #002d56 0%, #0355a2 51%, #002d56 100%);
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
+    scale: 0.7;
 }
 
 footer i:hover{
