@@ -217,6 +217,15 @@
 
         <div id="pageMeContacter">
             <h1>Me contacter</h1>
+            <p class="phraseContact">Que vous sachiez précisément ce que vous souhaitez ou que vous ayez un projet à co-construire, n’hésitez pas à me contacter via ce formulaire. Je me ferai un plaisir d’en discuter avec vous afin d’adapter mes services à vos besoins. </p>
+
+            <form class="formContact" action="submit" method="post">
+				<label>Nom<input type="text" name="nom" id="nom" required></label>
+                <label>Organisation / entreprise <input type="text" name="organistation" id="organisation"></label>
+				<label>Email<input type="email" name="email" id="email"required></label>
+				<label>Message<textarea name="message" id="message" required></textarea></label>
+				<label id="boutonEnvoyer"><input class="boutonEnvoyer" type="submit"  value="Envoyer"></label>
+			</form>
         </div> <!-- Fin de la partie "Me contacter" -->
 
     </main>
