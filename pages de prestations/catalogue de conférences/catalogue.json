@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nom": "Troublants trous noirs",
+        "image": "imagesConf/TrouNoir",
+        "description": "Les trous noirs agitent l’imagination des scientifiques comme des auteurs de science fiction. Mais qu’est-ce qu’un trou noir ? Et qu’est-ce qui le rend si fascinant ?",
+        "categorie": "",
+    },
+
+    {
+        "id": 2,
+        "nom": "L’astronomie aux temps préhistoriques",
+        "image": "imagesConf/Prehistorique",
+        "description": "Depuis quand l’humanité regarde-t-elle les étoiles ? Pourquoi l’a-t-elle fait au début ? Et que nous reste-t-il de ces époques anciennes où le rythme du ciel cadençait la vie des hommes et des femmes sur Terre ?",
+        "categorie": "",
+    },
+
+    
+
+]
